@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: gold;
+    }
+
+    header {
+      background: black;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: darkgoldenrod;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: black;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid gold;
+      padding: 10px;
+      text-align: center;
+    }
+
+    figure {
+      display: inline-block;
+      margin: 15px;
+      text-align: center;
+    }
+
+    figure img {
+      width: 200px;
+      border-radius: 10px;
+      border: 3px solid white;
+    }
+
+    figcaption {
+      margin-top: 5px;
+      font-style: italic;
+    }
+
+    video, audio {
+      display: block;
+      margin: 20px auto;
+      border: 3px solid white;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Multimedia Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#video">Video</a>
+    <a href="#audio">Audio</a>
+  </nav>
+
+  <!-- Projects Table -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <table>
+      <tr>
+        <th>Project Title</th>
+        <th>Category</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>Car Showcase</td>
+        <td>Web Design</td>
+        <td>2024</td>
+      </tr>
+      <tr>
+        <td>Smart House</td>
+        <td>Architecture</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>Fruit Market</td>
+        <td>Graphic Design</td>
+        <td>2022</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Images with Captions -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <figure>
+      <img src="../Assets/car_1.webp" alt="Car Project">
+      <figcaption>Car Project</figcaption>
+    </figure>
+    <figure>
+      <img src="../Assets/hou_1.webp" alt="House Project">
+      <figcaption>House Project</figcaption>
+    </figure>
+    <figure>
+      <img src="../Assets/fruit_1.webp" alt="Fruit Project">
+      <figcaption>Fruit Project</figcaption>
+    </figure>
+  </section>
+
+  <!-- Embedded Video -->
+  <section id="video">
+    <h2>Project Demo Video</h2>
+    <video controls width="500">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- Audio (Optional) -->
+  <section id="audio">
+    <h2>Background Music</h2>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="audio/wav">
+    </audio>
+  </section>
+  <!-- Social Media & Contact -->
+  <footer style="background: #222; color: white; padding: 20px; text-align: center">
+    <p>
+      Email:
+      <a href="mailto:indexprolific@gmail.com" style="color: gold">indexprolific@gmail.com</a>
+    </p>
+    <p>
+      Phone:
+      <a href="tel:+2348133274250" style="color: gold">+234 813 327 4250</a>
+    </p>
+    <p>
+      Follow us:
+      <a href="https://web.facebook.com/IndexMcProlific/" style="color: gold; margin: 0 10px">Facebook</a>
+      |
+      <a href="https://x.com/prolificmcp" style="color: gold; margin: 0 10px">Twitter</a>
+      |
+      <a href="https://www.linkedin.com/in/mc-prolific-906a0b256/" style="color: gold; margin: 0 10px">LinkedIn</a>
+      |
+      <a href="https://wa.me/2348133274250" target="_blank" style="color: gold; margin: 0 10px">
+        Chat with us
+      </a>
+      |
+      <a href="https://www.nairaland.com/mcprolific" style="color: gold; margin: 0 10px">Nairaland</a>
+    </p>
+    <p style="margin-top: 10px">
+      &copy; 2025
+      <a href="https://www.ncc.gov.ng/" style="color: gold; margin: 0px">NCC</a>. All Rights Reserved.
+    </p>
+  </footer>
+</body>
+</html>
